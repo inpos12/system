@@ -4,11 +4,184 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jquery.css">
   <title>Document</title>
 </head>
 
 <body>
+  <!--  네비게이션 -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo/logo.png" style="width: 150px" alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- 네비게이션 끝 -->
+  <!-- 슬라이드시작 -->
+  <div id="slide">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class=" w-100" style="background-image: url(/img/slide/slide-pc-mobile-1.jpg);">
+          </div>
+          <div class="carousel-caption slide-text">
+            <span class="slide-header-1">국내 신기술로 개발된 최적의 Solution!</span>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="w-100" style="background-image: url(/img/slide/pc-2.jpg);">
+          </div>
+          <div class="carousel-caption slide-text">
+            <span class="slide-header-2">더 쉽고 편리하게 안정적인
+              자동화 솔루션으로
+              <br>고객님을 찾아갑니다.</span>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- 슬라이드 끝 -->
+  <!-- 섹션1 시작 -->
+  <div id="section-1">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center mt-5">
+          <span class="section-1-header">제품소개</span>
+        </div>
+        <div class="row">
+          <div class="col text-center mt-3">
+            <span class="section-1-p">정보통신 기술의 융합을 완성하는 차세대 자동화 시스템 솔루션의 다양한 제품군을 제공합니다.<br>고객의 스마트한 생활, 주인정보시스템 솔루션과 함께
+              하십시오.</span>
+          </div>
+        </div>
+      </div>
+      <!-- 첫번재줄 -->
+      <div class="box-padding">
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
+            <img src="img/icon/icon-1.png" alt="">
+            <span class="box-header">EasyView</span>
+            <br> <span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos voluptas
+              expedita
+              commodi
+            </span>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
+            <img src="img/icon/icon-2.png" alt="">
+            <span class="box-header">EasyView</span>
+            <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos voluptas
+              expedita commodi
+            </span>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
+            <img src="img/icon/icon-3.png" alt="">
+            <span class="box-header">EasyView</span>
+            <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos voluptas
+              expedita commodi
+            </span>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
+            <img src="img/icon/icon-4.png" alt="">
+            <span class="box-header">EasyView</span>
+            <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos voluptas
+              expedita commodi
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- 2번째줄 -->
+      <div class="box-2-padding">
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
+            <img src="img/icon/icon-5.png" alt="">
+            <span class="box-header">EasyView</span>
+            <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos voluptas
+              expedita commodi
+            </span>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
+            <img src="img/icon/icon-6.png" alt="">
+            <span class="box-header">EasyView</span>
+            <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos voluptas
+              expedita commodi
+            </span>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
+            <img src="img/icon/icon-7.png" alt="">
+            <span class="box-header">EasyView</span>
+            <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos voluptas
+              expedita commodi
+            </span>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 section-1-center pb-5">
+            <img src="img/icon/icon-8.png" alt="">
+            <span class="box-header">EasyView</span>
+            <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos voluptas
+              expedita commodi
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 섹션1 끝 -->
+  <!-- 섹션2 시작 -->
+  <div id="section-2">
+    <div class="container">
+      <div class="row text-center mt-5 ">
+        <div class="col">
+          <span class="section-2-header">사업분야</span>
+        </div>
+      </div>
+      <div class="row text-center mt-3">
+        <div class="col">
+          <span class="section-2-p">최고의 기술력으로 개발된 자사의 다양한 소프트웨어를 기반으로
 
+            <br>산업자동화 전반의 시스템에 대한 설계, 구축, 운영관리 서비스를 제공하고 있습니다.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
