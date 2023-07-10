@@ -1,79 +1,131 @@
-@media (min-width:320px){
-  #slide .slide-header-1{
-    font-size: 28px;
-     width: 250px;
-     line-height: 1.8;
-     font-weight: bold;
+@media (min-width:320px) {
+  #navbar-mobile {
+    display: block;
   }
-  #slide .slide-header-2{
+
+  #navbar-pc {
+    display: none;
+  }
+
+  #navbar-mobile li a {
+    font-size: 13px;
+    font-weight: 700;
+
+  }
+
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  #slide .slide-header-1 {
+    font-size: 28px;
+    width: 250px;
+    line-height: 1.8;
+    font-weight: bold;
+  }
+
+  #slide .slide-header-2 {
     font-size: 28px;
     width: 320px;
     line-height: 1.8;
     font-weight: bold;
   }
-  #section-1 .section-1-header{
+
+  #section-1 .section-1-header {
     font-size: 28px;
     font-weight: 800;
   }
 
-  #section-1 .section-1-p{
+  #section-1 .section-1-p {
     font-size: 16px;
     font-weight: 400;
   }
-  #section-1 .box-header{
+
+  #section-1 .box-header {
     font-size: 16px;
     font-weight: 800;
     margin-top: 15px;
   }
-  #section-1 .box-p{
+
+  #section-1 .box-p {
     font-size: 13px;
     font-weight: 600;
   }
-  #section-2 .section-2-header{
+
+  #section-2 .section-2-header {
     font-size: 28px;
     font-weight: 800;
   }
-  #section-2 .section-2-p{
+
+  #section-2 .section-2-p {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.4;
   }
-  #section-3 span{
+
+  #section-3 span {
     font-weight: bold;
     font-size: 15px;
   }
-  #section-3 p{
- color: #b0b0b0;
+
+  #section-3 p {
+    color: #b0b0b0;
     font-size: 13px;
   }
-  #section-4 span{
+
+  #section-4 span {
     font-weight: bold;
     font-size: 16px;
   }
-  #section-4 p{
+
+  #section-4 p {
     font-size: 13px;
   }
-  #section-4 h7{
+
+  #section-4 h7 {
     font-size: 12px;
   }
-  
+
 }
-@media (min-width:720px){
-  #slide .slide-header-1{
-font-size: 28px;
+
+@media (min-width:720px) {
+  #navbar-mobile {
+    display: none;
   }
-  #slide .slide-header-2{
+
+  #navbar-pc {
+    display: block;
+  }
+
+  #navbar-pc .navbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    transition: background-color 0.1s ease;
+    background: transparent;
+  }
+
+  #slide .slide-header-1 {
+    font-size: 28px;
+  }
+
+  #slide .slide-header-2 {
     font-size: 28px;
   }
 }
-@media (min-width:1024px){
-  #slide .slide-header-1{
+
+@media (min-width:1024px) {
+  #slide .slide-header-1 {
     font-size: 38px;
-     width: 630px;
-     line-height: 1.8;
-     font-weight: bold;
+    width: 630px;
+    line-height: 1.8;
+    font-weight: bold;
   }
-  #slide .slide-header-2{
+
+  #slide .slide-header-2 {
     font-size: 38px;
     width: 730px;
     line-height: 1.8;
