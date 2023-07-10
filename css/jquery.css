@@ -38,6 +38,25 @@
     font-weight: 400;
     line-height: 1.4;
   }
+  #section-3 span{
+    font-weight: bold;
+    font-size: 15px;
+  }
+  #section-3 p{
+ color: #b0b0b0;
+    font-size: 13px;
+  }
+  #section-4 span{
+    font-weight: bold;
+    font-size: 16px;
+  }
+  #section-4 p{
+    font-size: 13px;
+  }
+  #section-4 h7{
+    font-size: 12px;
+  }
+  
 }
 @media (min-width:720px){
   #slide .slide-header-1{
