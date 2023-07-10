@@ -20,6 +20,7 @@
   /* 오페라(구)*/
 }
 
+/* 네비게이션 */
 #navbar-pc.navbar {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   transition: background-color 0.8s ease;
@@ -30,6 +31,7 @@
   border-bottom: 1px solid #e1e1e1e1;
 }
 
+/* 슬라이드 */
 .carousel-item>.w-100 {
   height: 100vh;
   background-size: cover;

@@ -7,6 +7,7 @@ window.addEventListener("scroll", function () {
     navbar.style.backgroundColor = "white";
     color.forEach((element) => {
       element.style.color = "black";
+      navbar.style.boxShadow = "0 2px 5px rgba(0,0,0,0.2)";
     });
   } else {
     navbar.style.backgroundColor = "transparent";
