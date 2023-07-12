@@ -1,4 +1,4 @@
-avbar-pc* {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -22,48 +22,6 @@ avbar-pc* {
   /* 오페라(구)*/
 }
 
-
-
-
-/* 네비게이션 PC */
-#navbar-pc.navbar {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  transition: background-color 0.8s ease;
-  background: transparent;
-  padding: 0px;
-}
-
-#navbar-pc .nav-link {
-  padding-top: 19px;
-  padding-bottom: 19px;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-#navbar-pc .nav-item {
-  margin: 0 25px;
-}
-
-/* 드롭다운메뉴 PC */
-
-#dropdown .col-lg-12 {
-  position: absolute;
-  color: white;
-  top: 57px;
-  left: 0;
-  padding-top: 20px;
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  list-style: none;
-  background-color: rgba(42, 42, 42, 0.9);
-}
-
-/* 네비게이션 모바일  */
-#navbar-mobile .nav-item {
-  border-bottom: 1px solid #e1e1e1e1;
-}
-
 /* 슬라이드 */
 .carousel-item>.w-100 {
   height: 100vh;
@@ -84,10 +42,10 @@ avbar-pc* {
   flex-direction: column;
 }
 
-.scroll-nav {
+/* .scroll-nav {
   background-color: #333 !important;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
-}
+} */
 
 #section-1 {
   background-color: rgba(0, 0, 0, 0.05);

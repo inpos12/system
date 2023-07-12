@@ -1,0 +1,9 @@
+/* 모바일 */
+@media (min-width:320px) {}
+
+/* 모바일 -> 테블릿 */
+@media (min-width:720px) {}
+
+/* 테블릿 -> PC 전환 */
+
+@media (min-width:992px) {}

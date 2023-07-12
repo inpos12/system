@@ -1,33 +1,5 @@
 /* 모바일 */
 @media (min-width:320px) {
-  #navbar-mobile {
-    display: block;
-  }
-
-  #navbar-pc {
-    display: none;
-  }
-
-  #dropdown {
-    display: none;
-  }
-
-  /* 모바일 나타나기 PC 숨기기 끝 */
-  #navbar-mobile li a {
-    font-size: 13px;
-    font-weight: 700;
-
-  }
-
-  .navbar-toggler-icon {
-    width: 1em;
-    height: 1em;
-  }
-
-  .logo {
-    width: 100px;
-  }
-
   #slide .slide-header-1 {
     font-size: 28px;
     width: 250px;
@@ -96,7 +68,6 @@
   #section-4 h7 {
     font-size: 12px;
   }
-
 }
 
 /* 모바일 -> 테블릿 */
@@ -116,43 +87,7 @@
 
 @media (min-width:992px) {
 
-  #navbar-mobile {
-    display: none;
-  }
 
-  #navbar-pc {
-    display: block;
-  }
-
-  #dropdown {
-    display: block;
-  }
-
-  #dropdown .link-box {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    margin: 0 45px;
-    line-height: 28px;
-  }
-
-  #dropdown span {
-    font-size: 15px;
-    font-weight: bold;
-  }
-
-  #dropdown li {
-    font-size: 12px;
-    color: #e1e1e1e1;
-  }
-
-  #navbar-pc li {
-    font-weight: bold;
-    font-size: 14px;
-  }
-
-  #navbar-pc li:first-child {
-    margin-left: 0px;
-  }
 
   #slide .slide-header-1 {
     font-size: 38px;

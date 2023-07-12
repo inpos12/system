@@ -8,12 +8,14 @@
   <!-- font -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css">
   <!-- font 끝-->
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="css/animate.min.css">
-  <link rel="stylesheet" href="css/font.css?ver=1">
-  <link rel="stylesheet" href="css/style.css?ver=1">
-  <link rel="stylesheet" href="css/jquery.css?ver=1">
+  <link rel="stylesheet" href="css/common/bootstrap.css">
+  <link rel="stylesheet" href="css/common/aos.css">
+  <link rel="stylesheet" href="css/common/animate.min.css">
+  <link rel="stylesheet" href="css/common/font.css?ver=1">
+  <link rel="stylesheet" href="css/common/nav.css">
+  <link rel="stylesheet" href="css/jaquery/nav.css">
+  <link rel="stylesheet" href="css/html-css/index.css">
+  <link rel="stylesheet" href="css/jaquery/home.css">
   <title>Document</title>
 </head>
 
@@ -22,8 +24,8 @@
 
   <nav class="navbar navbar-expand-lg bg-light fixed-top" id="navbar-pc">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img class="logo" src="img/logo/logo.png" alt="" />
+      <a class="navbar-brand" href="home.html">
+        <img class="logo" src="img/nav/logo/logo.png" alt="" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +61,7 @@
         <div class=" col-lg-12 text-left">
           <div class="link-box">
             <span>회사소개</span>
-            <li>회사개요</li>
+            <li><a href="html/html-1-1.html">회사개요</a></li>
             <li>CEO 인사말</li>
             <li>경영이념</li>
             <li>회사연혁</li>
@@ -109,8 +111,8 @@
   <nav class="navbar navbar-expand-lg fixed-top bg-light" id="navbar-mobile">
     <div class="container">
       <!-- <a class="navbar-brand" style="color: #e1e1e1" href="#">Navbar</a> -->
-      <a class="navbar-brand" href="#">
-        <img src="img/logo/logo.png" style="width: 100px" alt="" />
+      <a class="navbar-brand" href="home.html">
+        <img src="img/nav/logo/logo.png" style="width: 100px" alt="" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -143,14 +145,14 @@
 
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="5000">
-          <div class=" w-100" style="background-image: url(img/slide/slide-pc-mobile-1.jpg);">
+          <div class=" w-100" style="background-image: url(img/home/slide/slide-pc-mobile-1.jpg);">
             <div class="carousel-caption slide-text">
               <span class="slide-header-1">국내 신기술로 개발된 최적의 Solution!</span>
             </div>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <div class="w-100" style="background-image: url(img/slide/pc-2.jpg);">
+          <div class="w-100" style="background-image: url(img/home/slide/pc-2.jpg);">
 
             <div class="carousel-caption slide-text">
               <span class="slide-header-2">더 쉽고 편리하게 안정적인
@@ -193,7 +195,7 @@
         <div class="box-padding">
           <div class="row text-center">
             <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
-              <img src="img/icon/icon-1.png" alt="">
+              <img src="img/home/icon/icon-1.png" alt="">
               <span class="box-header">EasyView</span>
               <br> <span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos
                 voluptas
@@ -202,7 +204,7 @@
               </span>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
-              <img src="img/icon/icon-2.png" alt="">
+              <img src="img/home/icon/icon-2.png" alt="">
               <span class="box-header">EasyView</span>
               <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos
                 voluptas
@@ -210,7 +212,7 @@
               </span>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
-              <img src="img/icon/icon-3.png" alt="">
+              <img src="img/home/icon/icon-3.png" alt="">
               <span class="box-header">EasyView</span>
               <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos
                 voluptas
@@ -218,7 +220,7 @@
               </span>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
-              <img src="img/icon/icon-4.png" alt="">
+              <img src="img/home/icon/icon-4.png" alt="">
               <span class="box-header">EasyView</span>
               <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos
                 voluptas
@@ -231,7 +233,7 @@
         <div class="box-2-padding">
           <div class="row text-center">
             <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
-              <img src="img/icon/icon-5.png" alt="">
+              <img src="img/home/icon/icon-5.png" alt="">
               <span class="box-header">EasyView</span>
               <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos
                 voluptas
@@ -239,7 +241,7 @@
               </span>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
-              <img src="img/icon/icon-6.png" alt="">
+              <img src="img/home/icon/icon-6.png" alt="">
               <span class="box-header">EasyView</span>
               <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos
                 voluptas
@@ -247,7 +249,7 @@
               </span>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 section-1-center">
-              <img src="img/icon/icon-7.png" alt="">
+              <img src="img/home/icon/icon-7.png" alt="">
               <span class="box-header">EasyView</span>
               <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos
                 voluptas
@@ -255,7 +257,7 @@
               </span>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 section-1-center pb-5">
-              <img src="img/icon/icon-8.png" alt="">
+              <img src="img/home/icon/icon-8.png" alt="">
               <span class="box-header">EasyView</span>
               <br><span class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos
                 voluptas
@@ -290,7 +292,7 @@
         <div class="row my-5 ">
           <div class="col-lg-3 col-md-6 col-sm-6 section-3-center">
             <div class="img-box">
-              <img src="img/section3/1.png" alt="">
+              <img src="img/home/section3/1.png" alt="">
             </div>
             <span class="mt-3 ">스마트공장</span>
             <hr>
@@ -300,7 +302,7 @@
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 section-3-center">
             <div class="img-box">
-              <img src="img/section3/2.jpg" alt="">
+              <img src="img/home/section3/2.jpg" alt="">
             </div>
             <span class="mt-3 ">스마트빌딩</span>
             <hr>
@@ -310,7 +312,7 @@
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 section-3-center">
             <div class="img-box">
-              <img src="img/section3/3.png" alt="">
+              <img src="img/home/section3/3.png" alt="">
             </div>
             <span class="mt-3 ">에너지관리</span>
             <hr>
@@ -320,7 +322,7 @@
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 section-3-center">
             <div class="img-box">
-              <img src="img/section3/4.png" alt="">
+              <img src="img/home/section3/4.png" alt="">
             </div>
             <span class="mt-3 ">산업자동화</span>
             <hr>
@@ -335,22 +337,22 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-6 my-5 section-4-center">
-            <img src="img/section4/1.png" alt="">
-            <img class="img-hover" src="img/section4/1-hover.png" alt="">
+            <img src="img/home/section4/1.png" alt="">
+            <img class="img-hover" src="img/home/section4/1-hover.png" alt="">
             <span>자주묻는 질문사항</span>
             <p>궁금증을 해결해 드립니다.</p>
             <h7>VIEW</h7>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 my-5 section-4-center">
-            <img src="img/section4/2.png" alt="">
-            <img class="img-hover" src="img/section4/2-hover.png" alt="">
+            <img src="img/home/section4/2.png" alt="">
+            <img class="img-hover" src="img/home/section4/2-hover.png" alt="">
             <span>고객지원</span>
             <p>사업 영역별 담당자 정보를 알려드립니다.</p>
             <h7>VIEW</h7>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 my-5 section-4-center">
-            <img src="img/section4/3.png" alt="">
-            <img class="img-hover" src="img/section4/3-hover.png" alt="">
+            <img src="img/home/section4/3.png" alt="">
+            <img class="img-hover" src="img/home/section4/3-hover.png" alt="">
             <span>HMI 교육신청</span>
             <p>정기 교육 일정 및 교육 내용을 알려드립니다.</p>
             <h7>VIEW</h7>
