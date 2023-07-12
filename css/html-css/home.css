@@ -140,3 +140,7 @@
   border: 1px solid #a9a9a9;
   cursor: pointer;
 }
+
+footer {
+  margin-top: 0;
+}

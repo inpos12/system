@@ -6,25 +6,13 @@
     color: white;
   }
 
-  #section-1 h1 {
-    font-size: 20px;
-    font-weight: 500;
-  }
-
-  #section-1 h2 {
-    font-size: 25px;
-    font-weight: 800;
-    color: red;
-  }
-
   #section-1 span {
-    font-weight: 500;
-    font-size: 18px;
-    color: #969696;
+    color: #fa0202;
   }
 
-  #section-3 span {
-    color: #858585;
+  #section-1 p {
+    color: #828282;
+    font-size: 16px;
   }
 
 
@@ -45,4 +33,6 @@
     opacity: 1;
     height: 3px;
   }
+
+
 }
