@@ -21,3 +21,17 @@
   -o-text-size-adjust: none;
   /* 오페라(구)*/
 }
+
+#section1 .background-gray {
+  background-color: #e1e1e1;
+}
+
+#section1 .col-lg-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section1 .container-fulid {
+  padding: 0;
+}
