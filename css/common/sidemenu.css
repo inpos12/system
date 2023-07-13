@@ -26,9 +26,11 @@
   --link-height: 60px;
   position: relative;
   width: 100%;
+  padding: 0;
 }
 
 #sidemenu .nav-links li {
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,6 +82,7 @@
 
 #sidemenu .sub-menu ol {
   list-style: none;
+  padding: 0;
 }
 
 #sidemenu .sub-menu ol li {
