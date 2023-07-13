@@ -1,6 +1,6 @@
 @media (min-width:320px) {
-  #navbar-mobile {
-    display: block;
+  #sidemenu {
+    display: flex;
   }
 
   #navbar-pc {
@@ -30,7 +30,7 @@
 
 @media (min-width:992px) {
 
-  #navbar-mobile {
+  #sidemenu {
     display: none;
   }
 

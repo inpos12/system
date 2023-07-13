@@ -22,22 +22,7 @@
   /* 오페라(구)*/
 }
 
-#header img {
-  position: relative;
-  margin-top: 60px;
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-}
 
-#header span {
-  position: absolute;
-  text-align: center;
-  transform: translate(-50%, -50%);
-  margin-top: 30px;
-  top: 50%;
-  left: 50%;
-}
 
 #section-1 {
   padding-top: 100px;

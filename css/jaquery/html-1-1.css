@@ -1,10 +1,6 @@
 /* 모바일 */
 @media (min-width:320px) {
-  #header span {
-    font-size: 23px;
-    font-weight: bold;
-    color: white;
-  }
+
 
   #section-1 h1 {
     font-size: 20px;
@@ -28,10 +24,11 @@
   }
 
 
+
 }
 
 /* 모바일 -> 테블릿 */
-@media (min-width:720px) {}
+
 
 /* 테블릿 -> PC 전환 */
 
