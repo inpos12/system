@@ -1,0 +1,49 @@
+#section-1 {
+  padding-top: 100px;
+}
+
+#section-1 p {
+  margin-top: 50px;
+}
+/* 모바일 */
+@media (min-width: 320px) {
+  #section-1 span {
+    color: #fa0202;
+  }
+
+  #section-1 p {
+    color: #828282;
+    font-size: 16px;
+  }
+}
+
+/* 모바일 -> 테블릿 */
+
+/* 테블릿 -> PC 전환 */
+@media (min-width: 992px) {
+  #navbar-pc .link-1 hr {
+    margin: -1px;
+    padding: 0;
+    width: 53px;
+    border: 0;
+    background-color: #fa0202;
+    opacity: 1;
+    height: 3px;
+    animation-duration: 0.5s;
+    animation-name: navbarhr;
+  }
+  @keyframes navbarhr {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 53px;
+    }
+  }
+  #navbar-pc .link-2 hr,
+  #navbar-pc .link-3 hr,
+  #navbar-pc .link-4 hr,
+  #navbar-pc .link-5 hr {
+    display: none;
+  }
+}

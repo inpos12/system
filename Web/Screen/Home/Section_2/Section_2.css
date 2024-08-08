@@ -1,0 +1,11 @@
+@media (min-width: 320px) {
+  #section-2 .section-2-header {
+    font-size: 28px;
+    font-weight: 800;
+  }
+  #section-2 .section-2-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+}

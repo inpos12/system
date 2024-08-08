@@ -1,0 +1,27 @@
+@media (min-width: 992px) {
+  #navbar-pc .link-2 hr {
+    margin: -1px;
+    padding: 0;
+    width: 58px;
+    border: 0;
+    background-color: #fa0202;
+    opacity: 1;
+    height: 3px;
+    animation-duration: 0.5s;
+    animation-name: navbarhr;
+  }
+  @keyframes navbarhr {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 58px;
+    }
+  }
+  #navbar-pc .link-1 hr,
+  #navbar-pc .link-3 hr,
+  #navbar-pc .link-4 hr,
+  #navbar-pc .link-5 hr {
+    display: none;
+  }
+}
